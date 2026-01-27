@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mahasiswa</title>
+    <link rel="stylesheet" href="mystyel.css" media="all">
+</head>
+
+<body>
+    <h2>DATA MAHASISWA</h2>
+    <table class="frtable" align="center">
+        <form action="tambah.php">
+            <caption>
+                Tambah data Mahasiswa
+            </caption>
+            <tr>
+                <td width="140px">No. Induk</td>
+                <td><input type="text" name="noinduk" maxlength="12" /></td>
+            </tr>
+            <tr>
+                <td>Nama Mahasiswa</td>
+                <td><input type="text" name="nama" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td>JK</td>
+                <td><input type="radio" name="jk" value="L"> Laki-Laki
+                <td><input type="radio" name="jk" value="P"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Tgl. Lahir</td>
+                <td><input type="date" name="tgllahir" /></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Dosen Pembimbing</td>
+                <td><input type="text" name="dosen" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td>No. Telepon</td>
+                <td><input type="tel" name="telp" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" value="Proses" />&nbsp;
+                    <input type="reset" value="batal" />
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
