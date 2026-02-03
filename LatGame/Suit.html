@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+</head>
+<center>
+<body>
+    <h1>SUIT</h1>
+
+    <table width="500">
+        <tr>
+            <td>
+                <h2>YOU</h2>
+                <button onclick="main('batu')">BATU</button>
+                <button onclick="main('gunting')">GUNTING</button>
+                <button onclick="main('kertas')">KERTAS</button>
+                <img id="pil_user" src="image/gunting.png" alt="Pilihan User" width="100px">
+            </td>
+            <td>
+                <h2>COM</h2>
+                <button id="com">RANDOM</button>
+                <img id="pil_com" src="image/gunting.png" alt="Pilihan Komputer" width="100px">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p id="hasil">HASIL</p>
+                <h2 align="center">SKOR</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>Skor User: <span id="skor_user">0</span></td>
+            <td>Skor Komputer: <span id="skor_komputer">0</span></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button onclick="resetSkor()">RESET</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="SuitScript.js"></script>
+</body>
+</center>
+
+</html>
