@@ -1,0 +1,14 @@
+.grade-A {
+            background-color: green;
+            color: white;
+        }
+        .grade-B { 
+            background-color: #66ff99;
+        }
+        .grade-C {
+            background-color: red;
+        }
+        .grade-D {
+            background-color: black;
+            color: white;
+        }
